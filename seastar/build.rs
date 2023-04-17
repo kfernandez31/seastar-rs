@@ -22,6 +22,8 @@ static CXX_CPP_SOURCES: &[&str] = &[
 ];
 
 fn main() {
+    std::env::set_var("PKG_CONFIG_PATH", "/home/student2/sylwia/seastar/build/release/");
+    
     let seastar = pkg_config::Config::new()
         .statik(true)
         .probe("seastar")

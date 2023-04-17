@@ -8,7 +8,7 @@ links = "seastar"
 
 [dependencies]
 cxx = "1"
-cxx-async = { git = "https://github.com/kfernandez31/cxx-async", branch = "seastar" }
+cxx-async = { git = "https://github.com/kfernandez31/cxx-async", branch = "test_scylla" }
 futures = "0.3.25"
 pin-project = "1"
 seastar-macros = { path = "../seastar-macros" }
